@@ -23,7 +23,7 @@
   - Run MySQL in the location you've downloaded this application to, and input your password when prompted.
   - Use the command "node app.js" in your CLI, and you can then interact with the database, as shown below.
 
-  [Demo of installation and usage](https://i.imgur.com/NWvblBC.mp4)
+  [Demo of installation and usage]()
 
   ## License ![License](https://img.shields.io/badge/License-MIT-yellow.svg) [MIT](https://opensource.org/licenses/MIT)
 
