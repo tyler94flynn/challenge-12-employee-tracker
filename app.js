@@ -70,7 +70,7 @@ function startPrompt() {
 
 //show employees
 function viewAllEmployees() {
-    connection.query("query info here", 
+    connection.query("SELECT employee.first_name, employee.last_name, department.name AS Department FROM employee JOIN role ON employee.role_id = role.id JOIN department ON role.department_id = department.id ORDER BY employee.id;", 
     function(err, res) {
       if (err) throw err
       console.table(res)
@@ -80,7 +80,7 @@ function viewAllEmployees() {
 
 //show roles
 function viewAllRoles() {
-    connection.query('query info here', 
+    connection.query('SELECT * FROM role', 
     function(err, res) {
     if (err) throw err
     console.table(res)
@@ -90,7 +90,7 @@ function viewAllRoles() {
 
 //show employees by department
 function viewAllDepartments() {
-    connection.query("query info here", 
+    connection.query("SELECT first_name, last_name FROM employee WHERE manager_id IS NULL", 
     function(err, res) {
       if (err) throw err
       console.table(res)
