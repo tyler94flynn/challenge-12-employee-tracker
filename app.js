@@ -67,3 +67,14 @@ function startPrompt() {
         }
 })
 }
+
+//show employees
+function viewAllEmployees() {
+    connection.query("query info here", 
+    function(err, res) {
+      if (err) throw err
+      console.table(res)
+      startPrompt()
+  })
+}
+
