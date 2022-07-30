@@ -78,3 +78,22 @@ function viewAllEmployees() {
   })
 }
 
+//show roles
+function viewAllRoles() {
+    connection.query('query info here', 
+    function(err, res) {
+    if (err) throw err
+    console.table(res)
+    startPrompt()
+    })
+  }
+
+//show employees by department
+function viewAllDepartments() {
+    connection.query("query info here", 
+    function(err, res) {
+      if (err) throw err
+      console.table(res)
+      startPrompt()
+    })
+  }
