@@ -167,3 +167,9 @@ function addEmployee() {
 
     })
 }
+
+//update employee
+
+//add employee role
+
+//add department
