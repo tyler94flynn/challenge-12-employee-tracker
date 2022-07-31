@@ -6,12 +6,12 @@ VALUES
 
 INSERT INTO role (title, salary, department_id)
 VALUES
-    ("Director", 34.46, 1),
-    ("Dresser", 32.22, 2),
-    ("Prop Maker", 22.00, 2),
-    ("Makeup Artist", 24.79, 2),
-    ("Camera Operator", 25.51,3),
-    ("Digital Image Technician", 23.00, 3);
+    ("Director", 100000, 1),
+    ("Dresser", 50000, 2),
+    ("Prop Maker", 45000, 2),
+    ("Makeup Artist", 60000, 2),
+    ("Camera Operator", 75000,3),
+    ("Digital Image Technician", 80000, 3);
 
 
 

@@ -407,7 +407,7 @@ function addRole() {
         }, {
             name: "salary",
             type: "number",
-            message: "What is the salary? Example: 10.56",
+            message: "What is the annual salary? Example: 50000",
         }, {
             name: "department",
             type: "list",
