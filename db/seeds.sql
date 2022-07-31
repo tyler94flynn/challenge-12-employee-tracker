@@ -1,34 +1,45 @@
-INSERT INTO departments (name)
-VALUES
-  ('Marketing'),
-  ('Human Resources'),
-  ('Executive'),
-  ('Sales'),
-  ('IT');
+INSERT INTO department (name)
+VALUES 
+    ("Director"),
+    ("Art-Department"),
+    ("Camera-Department");
 
-INSERT INTO roles (job_title, salary, department_id)
+INSERT INTO role (title, salary, department_id)
 VALUES
-  ('CEO', '300000', 3),
-  ('CFO', '200000', 3),
-  ('Sales Associate', '100000', 4),
-  ('Frontend Developer', '220000', 5),
-  ('Backend Developer', '250000', 5),
-  ('Acquisition Manager', '90000', 2),
-  ('Cloud Engineer', '140000', 5),
-  ('Advertising Associate', '95000', 1),
-  ('System Adminstrator', '120000', 5),
-  ('COO', '200000', 3),
-  ('Maket Researcher', '250000', 1);
+    ("Director", 34.46, 1),
+    ("Dresser", 32.22, 2),
+    ("Prop Maker", 22.00, 2),
+    ("Makeup Artist", 24.79, 2),
+    ("Camera Operator", 25.51,3),
+    ("Digital Image Technician", 23.00, 3);
 
-INSERT INTO employees (first_name, last_name, role_id, manager_id)
-VALUES
-  ('Ronald', 'Firbank', 3, NULL),
-  ('Virginia', 'Woolf', 3, NULL),
-  ('Piers', 'Gaveston', 3, NULL),
-  ('Charles', 'LeRoi', 2, 1),
-  ('Katherine', 'Mansfield', 2, 1),
-  ('Dora', 'Carrington', 4, 0),
-  ('Edward', 'Bellamy', 4, 0),
-  ('Montague', 'Summers', 1, 1),
-  ('Octavia', 'Butler', 5, 1),
-  ('Unica', 'Zurn', 5, 1);    
+
+
+INSERT INTO employee (first_name, last_name, role_id, manager_id)
+VALUES 
+
+    ('Quentin', 'Tarantino', 1, NULL),
+    ('Steven', 'Spielberg', 1, NULL),
+    ('George', 'Lucas', 1, NULL),
+    ('Clint', 'Eastwood', 5, 2),
+    ('Tom', 'Hanks', 6, 3),
+    ('Will', 'Smith', 2, 2),
+    ('Scarlett', 'Johansson', 5, 2),
+    ('Leonardo', 'DiCaprio', 4, 1),
+    ('Tom', 'Cruise', 6, 2),
+    ('Johnny', 'Depp', 3, 3),
+    ('Bradd', 'Pitt', 3, 1),
+    ('Harrison', 'Ford', 5 ,3),
+    ('Samuel L', 'Jackson', 6, 1),
+    ('Ellen', 'DeGeneres', 3, 2),
+    ('Kim', 'Kardasian', 2, 2),
+    ('George', 'Clooney', 4, 2),
+    ('Keanu', 'Reeves', 6, 2),
+    ('Ryan', 'Reynalds', 2, 1),
+    ('Robert', 'Downey Jr.', 6, 1),
+    ('Nicolas', 'Cage', 4, 3),
+    ('John', 'Cena', 5, 3),
+    ('Dwayne', 'Johnson', 5, 3),
+    ('Jared', 'Leto', 4, 2),
+    ('Joaquin', 'Pheonix', 4, 2),
+    ('Heath', 'Ledger', 4, 3);
