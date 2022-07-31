@@ -8,10 +8,6 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
-  - [License](#license)
-  - [Contributors](#contributors)
-  - [Tests](#tests)
-  - [Questions](#questions)
   - [Contact](#contact)
 
   ## Installation
@@ -20,24 +16,15 @@
   - Install MySQL to your computer.
 
   ## Usage
+  - Open app.js in a text editor of your choice, and put your MySQL username and password in at line 9 and 10 respectively.
   - Run MySQL in the location you've downloaded this application to, and input your password when prompted.
-  - Use the command "node app.js" in your CLI, and you can then interact with the database, as shown below.
+  - Navigate to the 'db' folder in yoru mysql CLI and use the commands "source db.sql", "source schema.sql", "source seeds.sql" in that order.
+  - Open the terminal again in the root directory and use the command "npm start" in your CLI, and you can then interact with the database, as shown below.
 
   
 Demonstration of functionality:
 
-  ![Demo of installation and usage](example.gif)
-
-  ## License ![License](https://img.shields.io/badge/License-MIT-yellow.svg) [MIT](https://opensource.org/licenses/MIT)
-
-  ## Contributors
-  Tyler Flynn
-
-  ## Tests
-  N/A
-
-  ## Questions
-  N/A
+![Demo of installation and usage]()
 
   ## Contact
   [GitHub](https://github.com/tyler94flynn)
