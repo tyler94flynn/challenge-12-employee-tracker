@@ -24,7 +24,7 @@
   
 Demonstration of functionality:
 
-![Demo of installation and usage]()
+[Demo of installation and usage](https://youtu.be/VCTaD7SskWo)
 
   ## Contact
   [GitHub](https://github.com/tyler94flynn)
