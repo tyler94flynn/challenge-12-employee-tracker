@@ -8,6 +8,7 @@
   - [Description](#description)
   - [Installation](#installation)
   - [Usage](#usage)
+  - [Demonstration](#demonstration)
   - [Contact](#contact)
 
   ## Installation
@@ -22,9 +23,9 @@
   - Open the terminal again in the root directory and use the command "npm start" in your CLI, and you can then interact with the database, as shown below.
 
   
-Demonstration of functionality:
-
-[Demo of installation and usage](https://youtu.be/VCTaD7SskWo)
+  ## Demonstration
+  - ![Screenshot](./demo/screenshot.png)
+  - [Demo of installation and usage](https://youtu.be/VCTaD7SskWo)
 
   ## Contact
   [GitHub](https://github.com/tyler94flynn)
